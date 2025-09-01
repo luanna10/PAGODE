@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pagode Brasil</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Ícones -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+  <!-- Estilo próprio -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Cabeçalho -->
+  <header class="p-4 bg-dark text-white">
+    <nav class="container d-flex justify-content-between align-items-center">
+      <h1 class="fs-3 fw-bold">Pagode Brasil</h1>
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link text-white" href="#inicio">Início</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#galeria">Galeria</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main class="container my-5">
+
+    <!-- Seção Início -->
+    <section id="inicio" class="text-center">
+      <h2 class="display-5 fw-bold">Bem-vindo ao universo do Pagode 🎶</h2>
+      <p class="mt-3">O pagode é um dos estilos musicais mais queridos do Brasil, trazendo alegria, roda de samba,
+        cavaquinho e histórias embaladas em ritmo contagiante.</p>
+      <img src="C:/Users/Pichau/Downloads/roda de samba.jpg" class="img-fluid rounded-4 mt-3" alt="Roda de samba">
+    </section>
+
+    <!-- Seção História -->
+    <section id="historia" class="my-5">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="pagode/img/cavaquinho.jpeg" class="img-fluid rounded-3"
+            alt="Cavaquinho, instrumento típico do pagode">
+        </div>
+        <div class="col-md-6">
+          <h2 class="fw-semibold">A história do Pagode</h2>
+          <p class="mt-3">O pagode surgiu como uma vertente mais descontraída do samba, marcado pelo cavaquinho,
+            tantan, repique de mão e pandeiro. Nos anos 1980 e 1990, o gênero se popularizou com grupos que marcaram a
+            música brasileira até hoje.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Galeria -->
+    <section id="galeria" class="my-5">
+      <h2 class="text-center fw-semibold">Galeria</h2>
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <img src="pagode/img/cartaz grupo de pagode.jpg" class="img-fluid rounded-4"
+            alt="Cartaz de grupo de pagode">
+        </div>
+        <div class="col-md-6">
+          <img src="pagode/img/roda de samba.jpg" class="img-fluid rounded-4"
+            alt="Pessoas tocando pagode">
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="my-5">
+      <div class="container p-4 bg-light rounded-4">
+        <h2 class="mb-4">Entre em contato</h2>
+        <form>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" id="nome" name="nome" class="form-control" placeholder="Digite seu nome">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="Digite seu email">
+          </div>
+          <div class="mb-3">
+            <label for="mensagem" class="form-label">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" class="form-control" rows="4"
+              placeholder="Escreva sua mensagem"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="text-center p-4 bg-dark text-white">
+    <p>Siga nossas redes:</p>
+    <i class="bi bi-whatsapp mx-2"></i>
+    <i class="bi bi-instagram mx-2"></i>
+    <i class="bi bi-youtube mx-2"></i>
+    <p class="mt-3 small">Projeto fictício sobre Pagode. Criado apenas para fins educacionais.</p>
+  </footer>
+
+</body>
+
+</html>
